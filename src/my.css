@@ -1,0 +1,87 @@
+.main {
+    background-color: #F3F2EC;
+}
+
+header ul li .nav-link {
+    letter-spacing: .1rem;
+    color: rgb(113, 113, 113);
+}
+
+header ul li .nav-link:hover {
+    color: #DAA556;
+}
+
+.icons i {
+    color: rgb(113, 113, 113);
+}
+
+.h-top {
+    color: rgb(120, 119, 119);
+}
+
+.search_box a {
+    display: flex;
+    color: rgb(120, 119, 119);
+    cursor: pointer;
+    transition: all linear 6s;
+}
+
+.search_box a i {
+    padding: .7rem;
+    background-color: #e8e8e7;
+}
+
+form {
+    background-color: #e8e8e7;
+    transition: all ease-in-out.5s;
+}
+
+form input {
+    display: none;
+    width: 0px;
+    border: none;
+    color: rgb(120, 119, 119);
+    padding-left: 2rem;
+    background-color: #e8e8e7;
+    transition: all ease-in-out.5s;
+}
+
+form input:focus {
+    outline: none;
+}
+
+.search_box form:hover input {
+    display: flex;
+    width: 13rem;
+}
+
+.dropdown {
+    position: relative;
+    transition: all ease-in-out.5s;
+}
+
+.dropdown_menu {
+    position: absolute;
+    /* display: none; */
+    width: 12rem;
+    height: 0px;
+    top: 50px;
+    left: -15px;
+    background-color: #e8e8e7;
+    overflow: hidden;
+    transition: all ease-in-out.5s;
+}
+
+.dropdown_menu li {
+    list-style: none;
+}
+
+.dropdown_menu a:hover {
+    color: #DAA556;
+}
+
+.dropdown:hover .dropdown_menu {
+    display: flex;
+    flex-direction: column;
+    height: 22.5rem;
+}

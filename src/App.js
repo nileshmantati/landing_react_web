@@ -1,55 +1,97 @@
-import logo from './logo.svg';
-import './App.css';
 /* WebSite Link
  https://themewagon.github.io/booksaw/
  */
+import logo from './img/main-logo.png'
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import './jquery'
+import './my.css';
+import './jquery';
+import './all.min.css';
 
 function App() {
+  const flex = {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'blue',
+  }
   return (
-    <div className="App">
-      <header className="">
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-          <div className="container-fluid">
-            <a className="navbar-brand" href="#">Navbar</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon" />
-            </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">Link</a>
-                </li>
-                <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Action</a></li>
-                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                    <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
-              <form className="d-flex" role="search">
-                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                <button className="btn btn-outline-success" type="submit">Search</button>
+    <div className="container-fulid main px-3">
+
+      {/* Header Start */}
+      <header className="px-3">
+        <div className='header_top d-flex justify-content-between align-items-center py-3'>
+          <div className='icons d-flex column-gap-4'>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-square-behance"></i>
+          </div>
+          <div className='d-flex justify-content-between column-gap-5'>
+            <a className='h-top text-decoration-none d-flex align-itmes-center'><i class="fa-solid fa-user me-1 d-flex align-items-center"></i><span className='d-flex align-items-center'>Account</span></a>
+            <a className='h-top text-decoration-none d-flex align-itmes-center'><i class="fa-solid fa-clipboard me-1 d-flex align-items-center"></i><span className='d-flex align-items-center'>Cart : (0 $)</span></a>
+            <div className='search_box'>
+              <form className='d-flex rounded-5 overflow-hidden'>
+                <input type='search' placeholder='Search' />
+                <a href='#' className='text-decoration-none'>
+                  <i class="fa-solid fa-magnifying-glass rounded-circle"></i></a>
               </form>
             </div>
           </div>
+        </div>
+        <nav className="navbar navbar-expand-lg border-bottom border-top">
+          <div className="container-fluid px-0">
+            <a className="navbar-brand" href="#">
+              <img src={logo} alt='Not Found' />
+            </a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon" />
+            </button>
+            <div className="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+              <ul className="navbar-nav mb-2 mb-lg-0 col-8 column-gap-3">
+                <li className="nav-item">
+                  <a className="nav-link text-uppercase" aria-current="page" href="#" style={{ color: '#DAA556' }}>Home</a>
+                </li>
+                <li className="nav-item dropdown">
+                  <a className="nav-link text-uppercase" href="#">
+                    pages
+                    <i class="fa-solid fa-caret-down ms-2"></i>
+                  </a>
+                  <ul className="dropdown_menu ps-0">
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">home</a></li>
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">about</a></li>
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">styles</a></li>
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">blog</a></li>
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">post single</a></li>
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">our store</a></li>
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">product single</a></li>
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">contact</a></li>
+                    <li><a className="dropdown-item text-uppercase py-2 ps-4" href="#">thank you</a></li>
+                  </ul>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-uppercase" href="#">Featured</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-uppercase" href="#">popular</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-uppercase" href="#">offer</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-uppercase" href="#">articles</a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link text-uppercase" href="#">download app</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
-
       </header>
-    </div>
+      {/* Header End */}
+    </div >
   );
 }
 
