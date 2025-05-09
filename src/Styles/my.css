@@ -19,14 +19,15 @@ header ul li .nav-link:hover {
     color: rgb(120, 119, 119);
 }
 
-.search_box a {
+.search_box #search_btn {
     display: flex;
     color: rgb(120, 119, 119);
     cursor: pointer;
     transition: all linear 6s;
+    border: none;
 }
 
-.search_box a i {
+.search_box #search_btn i {
     padding: .7rem;
     background-color: #e8e8e7;
 }
@@ -36,9 +37,9 @@ form {
     transition: all ease-in-out.5s;
 }
 
-form input {
-    display: none;
-    width: 0px;
+form .search_input1 {
+    /* display: none; */
+    /* width: 0px; */
     border: none;
     color: rgb(120, 119, 119);
     padding-left: 2rem;
@@ -46,13 +47,33 @@ form input {
     transition: all ease-in-out.5s;
 }
 
-form input:focus {
+form .search_input1:focus {
     outline: none;
 }
 
-.search_box form:hover input {
-    display: flex;
-    width: 13rem;
+.search_box form:hover .search_input1 {
+    /* display: flex; */
+    /* width: 13rem; */
+}
+
+form .search_input2 {
+    /* display: none; */
+    /* width: 0px; */
+    border: none;
+    color: rgb(120, 119, 119);
+    background-color: red;
+    padding-left: 2rem;
+    /* background-color: #e8e8e7; */
+    transition: all ease-in-out.5s;
+}
+
+form .search_input2:focus {
+    outline: none;
+}
+
+.search_box form:hover .search_input2 {
+    /* display: flex; */
+    /* width: 13rem; */
 }
 
 .dropdown {
