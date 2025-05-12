@@ -2,6 +2,7 @@
     background-color: #F3F2EC;
 }
 
+/* Header Start  */
 header ul li .nav-link {
     letter-spacing: .1rem;
     color: rgb(113, 113, 113);
@@ -83,7 +84,7 @@ form .search_input2:focus {
 
 .dropdown_menu {
     position: absolute;
-    /* display: none; */
+    z-index: 20;
     width: 12rem;
     height: 0px;
     top: 50px;
@@ -105,4 +106,26 @@ form .search_input2:focus {
     display: flex;
     flex-direction: column;
     height: 22.5rem;
+}
+
+/* Slider Start  */
+
+.img_box {
+    background-image: url(../img/pattern1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding: 4rem 0px;
+}
+
+.text_box h1 {
+    font-size: 3.8rem;
+    font-family: "Prata", serif;
+    font-weight: 500;
+}
+
+.text_box p {
+    line-height: 2rem;
+    font-weight: 500;
+    color: #747474;
 }
