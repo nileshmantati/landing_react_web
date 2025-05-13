@@ -1,0 +1,69 @@
+/* Slider Start  */
+
+.homeslider .img_box {
+    background-image: url(../img/pattern1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding: 4rem 0px;
+}
+
+.homeslider .text_box h1 {
+    font-size: 3.8rem;
+    font-family: "Prata", Georgia, serif;
+    font-weight: 500;
+}
+
+.homeslider .text_box p {
+    line-height: 2rem;
+    font-weight: 500;
+    color: #747474;
+    font-family: "Raleway", sans-serif;
+}
+
+.homeslider .banner_btn {
+    color: #C5A992;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 1px solid #C5A992;
+    background-color: transparent !important;
+    transition: all ease-in-out .4s;
+}
+
+.homeslider .banner_btn i {
+    margin-left: .7rem;
+    transition: all ease-in-out .4s;
+}
+
+.homeslider .banner_btn:hover i {
+    margin-left: 1.2rem;
+}
+
+.homeslider .banner_btn:hover {
+    color: black;
+    border-color: black;
+}
+
+.homeslider .slick-prev {
+    left: -40px !important;
+}
+
+.homeslider .slick-prev:before {
+    font-size: 3rem !important;
+    color: black !important;
+}
+
+.homeslider .slick-next {
+    right: -40px !important;
+}
+
+.homeslider .slick-next:before {
+    font-size: 3rem !important;
+    color: black !important;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}

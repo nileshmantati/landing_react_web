@@ -3,6 +3,13 @@
 }
 
 /* Header Start  */
+.navbar {
+    /* position: sticky;
+    top: 0px; */
+    background-color: #F3F2EC;
+    z-index: 20;
+}
+
 header ul li .nav-link {
     letter-spacing: .1rem;
     color: rgb(113, 113, 113);
@@ -108,24 +115,8 @@ form .search_input2:focus {
     height: 22.5rem;
 }
 
-/* Slider Start  */
+/* Client Holder Start */
 
-.img_box {
-    background-image: url(../img/pattern1.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
-    padding: 4rem 0px;
-}
-
-.text_box h1 {
-    font-size: 3.8rem;
-    font-family: "Prata", serif;
-    font-weight: 500;
-}
-
-.text_box p {
-    line-height: 2rem;
-    font-weight: 500;
-    color: #747474;
+.clientholder_section {
+    background-color: #EDEBE4;
 }

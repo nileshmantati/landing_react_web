@@ -20,7 +20,7 @@ function Header() {
     return (
         <div>
             {/* Header Start */}
-            <header className="px-3">
+            <header className="px-3 position-sticky top-0">
                 <div className='header_top d-none d-md-flex justify-content-between align-items-center py-3 '>
                     <div className='icons d-flex column-gap-4'>
                         <i className="fa-brands fa-facebook-f" />

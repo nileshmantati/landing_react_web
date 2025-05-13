@@ -8,6 +8,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './App.css';
 import Header from './Header';
 import Homeslider from './Homeslider';
+import Clientholder from './Clientholder';
+import Featuredbooksslider from './Featuredbooksslider';
 
 
 function App() {
@@ -15,8 +17,12 @@ function App() {
     <div className="container-fulid main px-3">
 
       <Header />
-      <div className='mx-5 px-5'>
+      <div className='mx-lg-5 px-lg-5 pt-lg-0 pt-5 px-0 mx-0'>
         <Homeslider />
+      </div>
+      <Clientholder />
+      <div className='mx-lg-5 px-lg-5 px-0 mx-0'>
+        <Featuredbooksslider />
       </div>
     </div >
   );
