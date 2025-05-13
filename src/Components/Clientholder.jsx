@@ -1,4 +1,8 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import '../Styles/my.css';
+import '../Styles/all.min.css';
 
 function Clientholder() {
     return (

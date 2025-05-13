@@ -3,12 +3,6 @@
 }
 
 /* Header Start  */
-.navbar {
-    /* position: sticky;
-    top: 0px; */
-    background-color: #F3F2EC;
-    z-index: 20;
-}
 
 header ul li .nav-link {
     letter-spacing: .1rem;
@@ -118,5 +112,9 @@ form .search_input2:focus {
 /* Client Holder Start */
 
 .clientholder_section {
+    background-color: #EDEBE4;
+}
+
+.dark_bgcolor {
     background-color: #EDEBE4;
 }

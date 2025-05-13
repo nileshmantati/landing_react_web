@@ -10,12 +10,11 @@ import Header from './Header';
 import Homeslider from './Homeslider';
 import Clientholder from './Clientholder';
 import Featuredbooksslider from './Featuredbooksslider';
-
+import Bestselling from './Bestselling';
 
 function App() {
   return (
     <div className="container-fulid main px-3">
-
       <Header />
       <div className='mx-lg-5 px-lg-5 pt-lg-0 pt-5 px-0 mx-0'>
         <Homeslider />
@@ -24,6 +23,7 @@ function App() {
       <div className='mx-lg-5 px-lg-5 px-0 mx-0'>
         <Featuredbooksslider />
       </div>
+      <Bestselling />
     </div >
   );
 }
