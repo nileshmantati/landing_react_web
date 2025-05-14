@@ -21,7 +21,7 @@ function Featuredbooksslider() {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
-                    dots: true
+                    // dots: true
                 }
             },
             {
@@ -60,7 +60,7 @@ function Featuredbooksslider() {
                         <div className="text_box d-flex flex-column align-items-center row-gap-1 px-4 py-5">
                             <h6 className='text-capitalize mb-0 text-center'>Simple way of piece life</h6>
                             <p className='text-capitalize mb-0'>armor ramsey</p>
-                            <h5 className='mb-0'>$40.00</h5>
+                            <h5 className='mb-0'>$ 40.00</h5>
                         </div>
                     </div>
                     <div className='item d-flex flex-column'>
@@ -75,7 +75,7 @@ function Featuredbooksslider() {
                         <div className="text_box d-flex flex-column align-items-center row-gap-1 px-4 py-5">
                             <h6 className='text-capitalize mb-0 text-center'>Great travel at desert</h6>
                             <p className='text-capitalize mb-0'>Sanchit Howdy</p>
-                            <h5 className='mb-0'>$38.00</h5>
+                            <h5 className='mb-0'>$ 38.00</h5>
                         </div>
                     </div>
                     <div className='item d-flex flex-column'>
@@ -90,7 +90,7 @@ function Featuredbooksslider() {
                         <div className="text_box d-flex flex-column align-items-center row-gap-1 px-4 py-5">
                             <h6 className='text-capitalize mb-0 text-center'>The lady beauty Scarlett</h6>
                             <p className='text-capitalize mb-0'>Arthur Doyle</p>
-                            <h5 className='mb-0'>$45.00</h5>
+                            <h5 className='mb-0'>$ 45.00</h5>
                         </div>
                     </div>
                     <div className='item d-flex flex-column'>
@@ -105,7 +105,7 @@ function Featuredbooksslider() {
                         <div className="text_box d-flex flex-column align-items-center row-gap-1 px-4 py-5">
                             <h6 className='text-capitalize mb-0 text-center'>Once upon a time</h6>
                             <p className='text-capitalize mb-0'>Klien Marry</p>
-                            <h5 className='mb-0'>$35.00</h5>
+                            <h5 className='mb-0'>$ 35.00</h5>
                         </div>
                     </div>
                 </Slider>

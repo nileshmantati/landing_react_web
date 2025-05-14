@@ -11,6 +11,7 @@ import Homeslider from './Homeslider';
 import Clientholder from './Clientholder';
 import Featuredbooksslider from './Featuredbooksslider';
 import Bestselling from './Bestselling';
+import Popularbooksslider from './Popularbooksslider';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         <Featuredbooksslider />
       </div>
       <Bestselling />
+      <div className='mx-lg-5 px-lg-5 px-0 mx-0'>
+        <Popularbooksslider />
+      </div>
     </div >
   );
 }
