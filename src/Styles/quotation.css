@@ -1,0 +1,24 @@
+.quotation_text h1 {
+    font-family: "Prata", Georgia, serif;
+    font-weight: 500;
+}
+
+.quotation_hr {
+    width: 3rem;
+    height: 3.5px;
+    background-color: #74642F;
+}
+
+.quotation_text p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #767676;
+}
+
+.quotation_text span {
+    color: #767676;
+    font-family: "Prata", Georgia, serif;
+    font-size: 1.1rem;
+
+}

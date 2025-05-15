@@ -12,10 +12,13 @@ import Clientholder from './Clientholder';
 import Featuredbooksslider from './Featuredbooksslider';
 import Bestselling from './Bestselling';
 import Popularbooksslider from './Popularbooksslider';
+import Quotation from './Quotation';
+import Offer from './Offer';
+import Subscribe from './Subscribe';
 
 function App() {
   return (
-    <div className="container-fulid main px-3">
+    <div className="container-fulid main">
       <Header />
       <div className='mx-lg-5 px-lg-5 pt-lg-0 pt-5 px-0 mx-0'>
         <Homeslider />
@@ -27,6 +30,15 @@ function App() {
       <Bestselling />
       <div className='mx-lg-5 px-lg-5 px-0 mx-0'>
         <Popularbooksslider />
+      </div>
+      <div className='mx-lg-5 px-lg-5 px-0 mx-0'>
+        <Quotation />
+      </div>
+      <div className='dark_bgcolor'>
+        <Offer />
+      </div>
+      <div className='dark_bgcolor'>
+        <Subscribe />
       </div>
     </div >
   );

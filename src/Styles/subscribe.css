@@ -1,0 +1,67 @@
+.subscribe {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.subscribe h1 {
+    font-family: "Prata", Georgia, serif;
+    font-weight: 500;
+}
+
+.subscribe_hr {
+    width: 3rem;
+    height: 3.5px;
+    background-color: #74642F;
+}
+
+.subscribe p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #767676;
+}
+
+.subscribe span {
+    color: #767676;
+    font-family: "Prata", Georgia, serif;
+    font-size: 1.1rem;
+}
+
+.subscribe form {
+    background-color: transparent;
+}
+
+.subscribe input {
+    background-color: transparent;
+}
+
+.subscribe input:focus {
+    outline: none;
+}
+
+.send_btn {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: transparent !important;
+    transition: all ease-in-out .4s;
+}
+
+.send_btn i {
+    margin-left: .7rem;
+    transition: all ease-in-out .4s;
+}
+
+.send_btn:hover i {
+    margin-left: 1.2rem;
+}
+
+.send_btn span:hover {
+    color: gray;
+    border-color: black;
+}
+
+.send_btn span {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    color: black;
+}

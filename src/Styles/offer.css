@@ -1,0 +1,14 @@
+.offer_text {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.offer_text span {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.offer_text h1 {
+    font-family: "Prata", Georgia, serif;
+    font-weight: 500;
+}
