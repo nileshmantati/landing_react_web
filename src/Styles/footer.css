@@ -1,0 +1,61 @@
+.footer {
+    background-color: #F3F2EC;
+    color: #333;
+    font-family: 'Georgia', serif;
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.footer .logo {
+    width: 13rem;
+}
+
+.top-footer p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    color: #757575;
+}
+
+.footer .logo-light {
+    font-weight: normal;
+    color: #000;
+}
+
+.footer ul {
+    padding-left: 0;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    font-size: 1rem;
+}
+
+.footer-bottom p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #b2834a;
+}
+
+.social-icons a {
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgb(113, 113, 113);
+}

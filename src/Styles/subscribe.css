@@ -47,7 +47,8 @@
 }
 
 .send_btn i {
-    margin-left: .7rem;
+    color: black;
+    margin-left: .3rem;
     transition: all ease-in-out .4s;
 }
 

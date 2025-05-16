@@ -15,6 +15,7 @@ import Popularbooksslider from './Popularbooksslider';
 import Quotation from './Quotation';
 import Offer from './Offer';
 import Subscribe from './Subscribe';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
       <div className='dark_bgcolor'>
         <Subscribe />
       </div>
+      <Footer />
     </div >
   );
 }
